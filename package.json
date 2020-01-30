@@ -1,0 +1,23 @@
+{
+  "name": "tlkio-dump",
+  "version": "0.0.1",
+  "description": "Monitor and dump tlk.io history",
+  "main": "index.js",
+  "author": "qbane",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "esm": "^3.2.25",
+    "faye": "^1.2.4",
+    "lru-native2": "^1.2.1",
+    "node-ipc": "^9.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "string-format": "^2.0.0",
+    "websocket": "^1.0.30"
+  }
+}
